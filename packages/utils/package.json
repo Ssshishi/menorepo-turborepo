@@ -1,0 +1,23 @@
+{
+    "name": "utils",
+    "version": "0.0.0",
+    "main": "./index.ts",
+    "types": "./index.ts",
+    "private": true,
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "lint": "eslint \"**/*.ts*\"",
+        "generate:component": "turbo gen react-component"
+    },
+    "dependencies": {
+        "currency.js": "^2.0.4"
+    },
+    "devDependencies": {
+        "ahooks": "^3.7.7",
+        "eslint": "^7.32.0",
+        "eslint-config-custom": "workspace:*"
+    }
+}

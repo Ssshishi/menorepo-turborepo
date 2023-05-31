@@ -1,0 +1,16 @@
+import * as React from "react";
+
+{{!-- Handlebars  模板引擎 生成动态的html xml json 文件 --}}
+
+interface Props {
+  children?: React.ReactNode;
+}
+
+export const {{ pascalCase name }} = ({ children }: Props) => {
+  return (
+    <div>
+      <h1>{{ name }}</h1>
+      {children}
+    </div>
+  );
+};
