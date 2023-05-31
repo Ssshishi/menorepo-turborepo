@@ -1,5 +1,5 @@
 {
-  "name": "@turbo/tsconfig",
+  "name": "maria-tsconfig",
   "version": "2.0.0",
   "private": true,
   "license": "MIT",

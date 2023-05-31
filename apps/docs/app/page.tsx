@@ -1,4 +1,4 @@
-import { Button, Header } from "@turbo/ui";
+import { Button, Header } from "maria-ui";
 
 export default function Page() {
   return (

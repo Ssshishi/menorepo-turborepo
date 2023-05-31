@@ -12,16 +12,16 @@
     "next": "^13.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "@turbo/ui": "workspace:*"
+    "maria-ui": "workspace:*"
   },
   "devDependencies": {
-    "@turbo/hooks": "workspace:*",
+    "maria-hooks": "workspace:*",
     "@types/node": "^17.0.12",
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
     "eslint-config-custom": "workspace:*",
-    "@turbo/tsconfig": "workspace:*",
+    "maria-tsconfig": "workspace:*",
     "typescript": "^4.5.3",
-    "@turbo/utils": "workspace:*"
+    "maria-utils": "workspace:*"
   }
 }

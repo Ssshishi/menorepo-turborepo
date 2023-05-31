@@ -1,5 +1,5 @@
 {
-  "extends": "@turbo/tsconfig/nextjs.json",
+  "extends": "maria-tsconfig/nextjs.json",
   "compilerOptions": {
     "plugins": [{ "name": "next" }]
   },

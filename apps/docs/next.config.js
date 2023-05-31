@@ -1,4 +1,4 @@
 module.exports = {
   reactStrictMode: true,
-  transpilePackages: ["@turbo/ui"],
+  transpilePackages: ["maria-ui"],
 };

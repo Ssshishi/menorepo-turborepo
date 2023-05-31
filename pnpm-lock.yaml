@@ -25,7 +25,7 @@ importers:
 
   apps/docs:
     dependencies:
-      '@turbo/ui':
+      maria-ui:
         specifier: workspace:*
         version: link:../../packages/ui
       next:
@@ -38,9 +38,6 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
     devDependencies:
-      '@turbo/tsconfig':
-        specifier: workspace:*
-        version: link:../../packages/tsconfig
       '@types/node':
         specifier: ^17.0.12
         version: 17.0.45
@@ -53,13 +50,16 @@ importers:
       eslint-config-custom:
         specifier: workspace:*
         version: link:../../packages/eslint-config-custom
+      maria-tsconfig:
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
       typescript:
         specifier: ^4.5.3
         version: 4.9.5
 
   apps/web:
     dependencies:
-      '@turbo/ui':
+      maria-ui:
         specifier: workspace:*
         version: link:../../packages/ui
       next:
@@ -72,15 +72,6 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
     devDependencies:
-      '@turbo/hooks':
-        specifier: workspace:*
-        version: link:../../packages/hooks
-      '@turbo/tsconfig':
-        specifier: workspace:*
-        version: link:../../packages/tsconfig
-      '@turbo/utils':
-        specifier: workspace:*
-        version: link:../../packages/utils
       '@types/node':
         specifier: ^17.0.12
         version: 17.0.45
@@ -93,6 +84,15 @@ importers:
       eslint-config-custom:
         specifier: workspace:*
         version: link:../../packages/eslint-config-custom
+      maria-hooks:
+        specifier: workspace:*
+        version: link:../../packages/hooks
+      maria-tsconfig:
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
+      maria-utils:
+        specifier: workspace:*
+        version: link:../../packages/utils
       typescript:
         specifier: ^4.5.3
         version: 4.9.5
@@ -138,14 +138,14 @@ importers:
         specifier: ^7.32.0
         version: 7.32.0
       eslint-config-custom:
-        specifier: '@turbo/workspace:*'
-        version: link:@turbo/workspace:*
+        specifier: workspace:*
+        version: link:../eslint-config-custom
+      maria-tsconfig:
+        specifier: workspace:*
+        version: link:../tsconfig
       react:
         specifier: ^17.0.2
         version: 17.0.2
-      tsconfig:
-        specifier: '@turbo/workspace:*'
-        version: link:@turbo/workspace:*
       typescript:
         specifier: ^4.5.2
         version: 4.9.5
@@ -160,8 +160,8 @@ importers:
         specifier: ^7.32.0
         version: 7.32.0
       eslint-config-custom:
-        specifier: '@turbo/workspace:*'
-        version: link:@turbo/workspace:*
+        specifier: workspace:*
+        version: link:../eslint-config-custom
 
 packages:
 

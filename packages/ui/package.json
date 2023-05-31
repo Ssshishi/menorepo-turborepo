@@ -1,5 +1,5 @@
 {
-  "name": "@turbo/ui",
+  "name": "maria-ui",
   "version": "2.0.0",
   "main": "./index.tsx",
   "types": "./index.tsx",
@@ -15,9 +15,9 @@
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "eslint": "^7.32.0",
-    "eslint-config-custom": "@turbo/workspace:*",
+    "eslint-config-custom": "workspace:*",
     "react": "^17.0.2",
-    "tsconfig": "@turbo/workspace:*",
+    "maria-tsconfig": "workspace:*",
     "typescript": "^4.5.2"
   }
 }

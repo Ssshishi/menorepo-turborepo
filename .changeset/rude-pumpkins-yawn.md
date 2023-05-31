@@ -3,8 +3,6 @@
 "maria-hooks": major
 "maria-utils": major
 "maria-ui": major
-"docs": major
-"web": major
 ---
 
-更改名称
+修改名称
