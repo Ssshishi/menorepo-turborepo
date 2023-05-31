@@ -1,4 +1,4 @@
-import { Button, Header } from "maria-ui";
+import { Button, Header } from "mariay-ui";
 
 export default function Page() {
   return (

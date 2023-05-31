@@ -16,6 +16,9 @@ importers:
       eslint-config-custom:
         specifier: workspace:*
         version: link:packages/eslint-config-custom
+      mariay-ui:
+        specifier: workspace:^
+        version: link:packages/ui
       prettier:
         specifier: ^2.5.1
         version: 2.8.8
@@ -25,7 +28,7 @@ importers:
 
   apps/docs:
     dependencies:
-      maria-ui:
+      mariay-ui:
         specifier: workspace:*
         version: link:../../packages/ui
       next:
@@ -59,7 +62,7 @@ importers:
 
   apps/web:
     dependencies:
-      maria-ui:
+      mariay-ui:
         specifier: workspace:*
         version: link:../../packages/ui
       next:

@@ -1,6 +1,6 @@
 {
   "name": "docs",
-  "version": "2.0.0",
+  "version": "4.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev --port 3001",
@@ -12,7 +12,7 @@
     "next": "^13.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "maria-ui": "workspace:*"
+    "mariay-ui": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "^17.0.12",
