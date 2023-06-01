@@ -1,6 +1,6 @@
 "use client"
 
-import { Button, Header } from "mariay-ui";
+import { Button, Header } from "cishy-ui";
 import { toFen } from 'maria-utils'
 import { useMount } from 'maria-hooks'
 

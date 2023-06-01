@@ -1,4 +1,4 @@
-import { Button, Header } from "mariay-ui";
+import { Button, Header } from "cishy-ui";
 
 export default function Page() {
   return (

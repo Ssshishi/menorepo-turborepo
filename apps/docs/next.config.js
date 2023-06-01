@@ -1,4 +1,4 @@
 module.exports = {
   reactStrictMode: true,
-  transpilePackages: ["mariay-ui"],
+  transpilePackages: ["cishy-ui"],
 };

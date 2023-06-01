@@ -9,7 +9,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - mariay-ui@4.0.0
+  - cishy-ui@4.0.0
 
 ## 3.0.0
 
@@ -20,7 +20,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - mariay-ui@3.0.0
+  - cishy-ui@3.0.0
 
 ## 2.0.0
 
